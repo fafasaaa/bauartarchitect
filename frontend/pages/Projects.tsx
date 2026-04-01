@@ -250,9 +250,7 @@ const Projects: React.FC = () => {
                   <div className="text-zinc-900 font-medium">{selectedProject.scope}</div>
                 </div>
 
-                <button className="w-full py-5 bg-zinc-900 text-white font-bold uppercase tracking-widest text-xs hover:bg-zinc-800 transition-colors">
-                  ΚΑΤΕΒΑΣΤΕ ΤΟ PDF ΤΟΥ ΕΡΓΟΥ
-                </button>
+                
               </div>
             </div>
           </div>
