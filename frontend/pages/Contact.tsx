@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:4000/api/contact';
+const API_URL = '/api/contact';
 
 const Contact: React.FC = () => {
   const [name, setName] = useState('');
